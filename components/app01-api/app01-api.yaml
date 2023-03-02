@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: app01-api
+  description: API app01
+  links:
+    - url: https://petstore.swagger.io/
+      title: API Petstore
+      icon: docs
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: cloudops
+  system: ejie-system1
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.17
+      title: Pet API
+      license:
+        name: MIT
+    servers:
+      - url: https://petstore3.swagger.io/api/v3
+    paths:
+      /pet/findByStatus?status=available:
+        get:
+          summary: List all pets
+      

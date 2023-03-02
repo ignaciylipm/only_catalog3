@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: ejie-catalog-info
+  description: Ejie catalogo info
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/app01-ui/app01-ui.yaml
+    - ./components/app01-appserver/app01-appserver.yaml
+    #- ./components/yelb-db/yelb-db.yaml
+    #- ./components/yelb-appserver/yelb-appserver.yaml
+    - ./groups/org.yaml
+    - ./systems/ejie-system1.yaml
+    - ./systems/ejie-system2.yaml
+    #- ./resources/yelb-db-resource.yaml
+    - ./domains/cloudejie-domain.yaml
