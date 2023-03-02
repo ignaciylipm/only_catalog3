@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: system1-test
-  description: system2-test
+  description: system1-test
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
