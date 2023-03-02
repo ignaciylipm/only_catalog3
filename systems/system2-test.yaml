@@ -7,5 +7,4 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: cloudops
-  domain: cloud-ejie
   parent: system1-test
