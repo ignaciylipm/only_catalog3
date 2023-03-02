@@ -10,3 +10,4 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: cloudops
+  children: [m006]
