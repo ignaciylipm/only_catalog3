@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: m006
+  description: m006
+  links:
+    - url: http://m006.com/domain/cloud-apps/
+      title: SubDomain m006
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: cloudops
