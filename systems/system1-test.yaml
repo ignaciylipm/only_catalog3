@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: ejie-system1
-  description: System1
+  name: system1-test
+  description: system2-test
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
