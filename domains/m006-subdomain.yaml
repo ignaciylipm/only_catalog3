@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: m006
-  description: m006
+  description: SubDomain m006
   links:
     - url: http://m006.com/domain/cloud-apps/
       title: SubDomain m006
