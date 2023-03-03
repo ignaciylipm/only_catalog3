@@ -1,24 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: app01-ui
-  description: App01 UI
+  name: m001-d006-mensajeshl7-service-artemis
+  description: m001-d006-mensajeshl7-service-artemis
   tags:
     - javascript
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=yelb-ui,tier=frontend'
     'backstage.io/techdocs-ref': dir:.
-    #'backstage.io/techdocs-ref': dir:./components/app01-ui
-    #'backstage.io/techdocs-ref': github:https://github.com/ignaciylipm/only_catalog2/tree/main/components/app01-ui
   links:
     - url: https://app01-ui.example.com
       title: 'App01 Information'
       icon: locallibrary
 spec:
   type: service
-  consumesApis:
-   - app01-api
   lifecycle: experimental
   owner: cloudops
-  system: ejie-system1
-  #dependsOn: [Component:yelb-appserver]
+  system: d006-mensajeshlt7
+  
