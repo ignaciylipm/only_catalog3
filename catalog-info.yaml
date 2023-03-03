@@ -9,3 +9,6 @@ spec:
   targets:
     - ./domains/m001-domain.yaml
     - ./systems/d006-mensajeshlt7-system.yaml
+    - ./components/service-artemis/m001-d006-mensajeshl7-service-artemis.yaml
+    - ./components/service-back/m001-d006-mensajeshl7-service-back.yaml
+    - ./components/service-integracion/m001-d006-mensajeshl7-service-integracion.yaml
