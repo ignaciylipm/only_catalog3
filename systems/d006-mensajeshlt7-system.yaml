@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: system1-test
-  description: system1-test
+  name: d006-mensajeshlt7
+  description: d006-mensajeshlt7 System
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: cloudops
-  domain: cloud-ejie
+  domain: m001
